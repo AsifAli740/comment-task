@@ -18,7 +18,7 @@ function CommentComp({ commentState, setCommentState }) {
   const replyFocus = useRef("");
 
   const textAreaFocus = () => {
-    if (replyData.id) {
+    if (replyData) {
         console.log(replyData,"wkkjak");
      const a =   commentState.map((ID)=>{
             console.log(ID,"sjkjaks");
